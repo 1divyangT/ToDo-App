@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>TODO LIST</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <h1 id="heading">TODO &nbsp&nbspApp</h1>
+    <div id="outerDiv">
+        <img src="assets/clipBoard.png" id="clipIcon">
+        <textarea id="myInput" placeholder="&nbsp &nbsp Enter your tasks...">
+        </textarea>
+        <a href="#" id="plusButton" onclick="add()"><img src="assets/add.png"></a>
+        <span id="complete"><img src="assets/double-check.png">
+            <p>Complete all tasks</p>
+        </span>
+        <span id="clear">
+            <p>Clear completed</p>
+        </span>
+        <hr>
+
+        <div>
+            <ul id="list">
+
+
+            </ul>
+        </div>
+        <hr id="bottom">
+        <span id="complete">
+            <span id="taskCount"></span>
+            <p>Tasks left</p>
+        </span>
+    </div>
+
+    <script src="first.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,133 @@
+#outerDiv{
+    background-color: rgb(232, 231, 231);
+    min-height:300px;
+    width: 600px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+   
+    
+}
+#clipIcon{
+    width:30px;
+    height: 30px;
+    margin-top: 27px;
+    margin-left: 30px;
+    position: absolute;
+    
+}
+#myInput {
+    border-radius: 10px;
+    margin-left: 30px;
+    margin-top: 20px;
+    height: 45px;
+    width: 500px ; 
+    padding-left: 30px;
+    resize:none;   
+    font-size: 20px;
+
+}
+
+#myInput::-webkit-scrollbar{
+         display: none;
+}
+
+
+
+body{
+    background-color: rgb(163, 160, 160);
+}
+
+#heading{
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 59px;
+    
+}
+
+#complete img{
+    height:20px;
+    width:20px;
+    display: inline;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+
+
+#complete{
+    margin-left: 16px;
+    margin-top: 2px;
+    display: block;
+    opacity: 0.8;
+}
+
+#complete p{
+    margin-left: 45px;
+    margin-top:-22px;
+}
+
+#clear{
+    margin-left: 440px;
+    display: block;
+    margin-top: -35px;
+    opacity: 0.9;
+}
+
+#plusButton img{
+    height:20px;
+    width:20px;
+    margin-left: -43px;
+    margin-bottom:1px;
+    background-color: rgb(234, 243, 250);
+}
+
+
+
+ul li{
+    list-style:none;
+    font-size:17px;
+    padding:12px 8px 12px 50px;
+    user-select:none;
+    cursor:pointer;
+    position: relative;
+}
+
+ul li::after{
+    content:'';
+    position: absolute;
+    height:28px;
+    width:28px;
+    border-radius: 50%;
+    background-image: url(assets/checked.png);
+    background-size: cover;
+    background-position: center;
+    margin-left: 394px;
+    margin-top: -25px;
+    display: none;
+}
+
+ul li:hover::after{
+    display: block;
+}
+
+#bottom{
+    margin-top:78px;
+}
+
+#complete {
+    margin-top: 12px;
+   
+}
+
+#taskCount{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#complete p{
+    font-size: 20px;
+    margin-top:-27px
+}
